@@ -28,7 +28,7 @@ const PriceList: React.FC<{
         Kryptoer 🚀
       </Typography>
 
-      <Button variant="text">Text</Button>
+    
       <List>
         {currencies.map(({ symbol, name, icon }) => {
           const selected = currentCurrency === symbol;

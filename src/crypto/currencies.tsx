@@ -11,11 +11,16 @@ export const currencies: CryptoCurrency[] = [
   {
     symbol: "BTC",
     name: "Bitcoin",
-    icon: <Icon component="img" src="/icons/bitcoin.svg" alt="Bitcoin" />,
+    icon: <Icon component="img" src="/icons/bitcoin.png" alt="Bitcoin" />,
   },
   {
     symbol: "ETH",
     name: "Ethereum",
-    icon: <Icon component="img" src="/icons/ethereum.svg" alt="Ethereum" />,
+    icon: <Icon component="img" src="/icons/ethereum.png" alt="Ethereum" />,
+  },
+  {
+    symbol: "SOL",
+    name: "Solana",
+    icon: <Icon component="img" src="/icons/solana.png" alt="Ethereum" />,
   }
 ];
